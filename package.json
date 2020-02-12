@@ -1,0 +1,19 @@
+{
+  "name": "ytpr-gcp-functions-deployer",
+  "version": "1.0.0",
+  "description": "Deployes to GCP functions",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:declarations": "tsc --declaration",
+    "echo:test": "echo HelloWorld"
+  },
+  "author": "Gaurav Kispotta",
+  "license": "ISC",
+  "dependencies": {
+    "env-app-yaml": "^1.0.0",
+    "env-var": "^5.2.0",
+    "write-yaml": "^1.0.0"
+  }
+}
